@@ -1,0 +1,9 @@
+[package]
+name = "gerrit_events"
+version.workspace = true
+edition.workspace = true
+license-file.workspace = true
+description = "Serde types for Gerrit stream events"
+
+[dependencies]
+serde.workspace = true
